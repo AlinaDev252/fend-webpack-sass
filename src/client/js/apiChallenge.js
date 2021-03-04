@@ -7,7 +7,7 @@ function handleSubmit(event) {
 	Client.checkForName(formText);
 
 	console.log("::: Form Submitted :::");
-	fetch("api.openweathermap.org/data/2.5/weather?q={New York}&appid={6c31832a1258f53fbea517b9e487dcf8}")
+	fetch("api.openweathermap.org/data/2.5/weather?q=Malaga&appid=6c31832a1258f53fbea517b9e487dcf8")
 		.then((res) => {
 			return res.json();
 		})
